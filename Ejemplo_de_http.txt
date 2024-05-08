@@ -1,0 +1,72 @@
+PETREST
+
+GET: articulos
+Recupera la lista de ids de los artículos del catálogo
+Ej. con curl
+curl http://10.202.20.125/petrest/articulos
+
+GET: articulos/<id_articulo>
+Recupera el artículo del catálogo con el id dado
+Ej. con curl
+curl -L http://10.202.20.125/petrest/articulos/1
+
+GET: clientes
+Recupera la lista de ids de clientes
+Ej. con curl
+curl -L http://10.202.20.125/petrest/clientes
+
+GET: clientes/<id_cliente>
+Recupera el cliente con el id dado
+Ej. con curl
+curl http://10.202.20.125/petrest/clientes/1
+
+GET: pedidos <id_pedido>
+Recupera el pedido de id dado
+Ej. con curl
+curl http://10.202.20.125/petrest/pedidos/1
+
+GET: pedido <id_pedido> items
+Recupera la lista de todos las items del pedido
+Ej. con curl
+curl http://10.202.20.125/petrest/pedidos/1/items
+
+GET: items
+Recupera la lista de todos los ids de items
+Ej. con curl
+curl http://10.202.20.125/petrest/items
+
+GET: items <id_item>
+Recupera el item con id dado
+Ej. con curl
+curl http://10.202.20.125/petrest/items/1
+
+GET: facturas
+Recupera la lista de todos los ids de factura
+Necesita credenciales.
+Ej. con curl
+curl http://10.202.20.125/petrest/facturas -u "usuario:clave"
+
+GET: facturas <id_factura>
+Recupera la factura con el id dado
+Necesita credenciales.
+Ej. con curl
+curl http://10.202.20.125/petrest/facturas/3 -u "usuario:clave"
+
+POST: facturas <id_pedido> <importe>
+Crea una factura para el pedido e el importe dados
+Necesita credenciales.
+Retorna el id de la factura creada.
+Ej. con curl
+curl -X POST http://10.202.20.125/petrest/facturas -u "usuario:clave" -H "Content-Type:application/json" -d "{\”id_pedido\”:1,\”importe\”:11.33}"
+
+PUT: facturas/<id_factura> <descuento> <base> <iva> <total>
+Modifica la factura con el id dado
+Necesita credenciales
+Ej. con curl
+curl -X PUT http://10.202.20.125/petrest/facturas/1 -u "usuario:clave" -H "Content-Type:application/json" -d "{\”descuento\”:22.33,\”base\”:45.67,\”ova\”:2.17,\”total\”:45.67}"
+
+DELETE facturas
+Resetea todas las facturas del usuario
+Necesita credenciales
+Ej. con curl
+curl -X DELETE 10.202.20.125/petrest/facturas -u "usuario:clave"

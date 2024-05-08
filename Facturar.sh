@@ -7,22 +7,24 @@
 # Limpiar terminal
 clear
 
-# Compilamos nuestra clase principal Facturar.java
-javac Facturar.java
-
-# Si no hay errores, ejecutamos el programa
-if [ $? -eq 0 ]; then
-    # Ejecutar Facturar si no hubo errores
-    java Facturar &
-
-    # Esperar a que termine la ejecucion (good practice)
-    wait
-
-    rm *.class # Limpiar archivos .class después de ejecutar
+# Comprobar que el archivo JAR está presente
+if [ ! -f "json-simple-1.1.1.jar" ]; then
+    echo "Error: json-simple-1.1.1.jar no se encuentra."
+    exit 1
 else
-    echo "Error: La compilación de Facturar ha fallado."
-    rm *.class # Limpiar archivos .class después de error
+    echo "json-simple-1.1.1.jar encontrado!"
 fi
 
-# to kill all processes with the name "java Facturar"
-# pkill -f "java Facturar"
+# Compilar Facturar.java
+javac -cp .:json-simple-1.1.1.jar Facturar.java
+
+# Si no hay errores de compilación, ejecutar el programa
+if [ $? -eq 0 ]; then
+    java -cp .:json-simple-1.1.1.jar Facturar
+
+    # Limpiar archivos .class después de ejecutar
+    rm *.class
+else
+    echo "Error: La compilación de Facturar ha fallado."
+    rm *.class  # Limpiar archivos .class si la compilación falla
+fi
