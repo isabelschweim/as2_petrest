@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PetRESTrest</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            img {width:24px; cursor:pointer;}
+            .h {
+                font-size: 40pt;
+                font-family: fantasy;
+                margin-bottom: 30px;
+            }
+            .i{
+                margin-top:40px;
+            }
+            .r{
+                font-size: 20px;
+                font-family: monospace;
+            }
+            .c{
+                font-size: 15px;
+                font-family: monospace;
+                font-style: italic;
+                margin-left: 40px
+            }
+            .ej{
+                border: solid thin lightblue;
+                background: #cce3f7;
+                border-radius: 10px;
+                margin-left: 50px;
+                font-weight: bold;
+                font-family: system-ui;
+                padding: 10px;
+            }
+            .l{
+                border: solid thin #70a7d7;
+                background: aliceblue;
+                border-radius: 10px;
+                margin-left: 50px;
+                font-weight: bold;
+                font-family: system-ui;
+                padding: 10px;
+                width: 300px;
+                margin-bottom: -10px;
+                margin-top: 18px;
+            }
+        </style>
+        <script>
+            function Copy(me) 
+                {
+                let text = me.parentElement.textContent;
+                navigator.clipboard.writeText(text);
+                }
+            </script>
+    </head>
+    <body>
+        <div class="h">PetREST</div>
+
+        <div class="i">
+            <div class="r">GET: articulos</div>
+            <div class="c">Recupera la lista de ids de los artículos del catálogo</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">
+                curl http://10.202.20.125/petrest/articulos
+            </div>
+            
+        </div>
+        <div class="i">
+            <div class="r">GET: articulos/&lt;id_articulo&gt;</div>
+            <div class="c">Recupera el artículo del catálogo con el id dado</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl -L http://10.202.20.125/petrest/articulos/1</div>
+        </div>
+
+        <div class="i">
+            <div class="r">GET: clientes</div>
+            <div class="c">Recupera la lista de ids de clientes</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl -L http://10.202.20.125/petrest/clientes</div>
+        </div>
+        <div class="i">
+            <div class="r">GET: clientes/&lt;id_cliente&gt;</div>
+            <div class="c">Recupera el cliente con el id dado</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl http://10.202.20.125/petrest/clientes/1</div>
+        </div>
+
+        <div class="i">
+            <div class="r">GET: pedidos &lt;id_pedido&gt;</div>
+            <div class="c">Recupera el pedido de id dado</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl  http://10.202.20.125/petrest/pedidos/1</div>
+        </div>
+
+        <div class="i">
+            <div class="r">GET: pedido &lt;id_pedido&gt; items</div>
+            <div class="c">Recupera la lista de todos las items del pedido</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl http://10.202.20.125/petrest/pedidos/1/items</div>
+        </div>
+        
+        <div class="i">
+            <div class="r">GET: items</div>
+            <div class="c">Recupera la lista de todos los ids de items</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl http://10.202.20.125/petrest/items</div>
+        </div>
+    
+        <div class="i">
+            <div class="r">GET: items &lt;id_item&gt;</div>
+            <div class="c">Recupera el item con id dado</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl http://10.202.20.125/petrest/items/1</div>
+        </div>
+            
+        <div class="i">
+            <div class="r">GET: facturas </div>
+            <div class="c">Recupera la lista de todos los ids de factura</div>
+            <div class="c">Necesita credenciales.</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl http://10.202.20.125/petrest/facturas -u "usuario:clave"</div>
+        </div>
+
+        <div class="i">
+            <div class="r">GET: facturas &lt;id_factura&gt; </div>
+            <div class="c">Recupera la factura con el id dado</div>
+            <div class="c">Necesita credenciales.</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl http://10.202.20.125/petrest/facturas/3  -u "usuario:clave"</div>
+        </div>
+
+        <div class="i">
+            <div class="r">POST: facturas &lt;id_pedido&gt; &lt;importe&gt; </div>
+            <div class="c">Crea una factura para el pedido e el importe dados</div>
+            <div class="c">Necesita credenciales.</div>
+            <div class="c">Retorna el id de la factura creada.</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl -X POST http://10.202.20.125/petrest/facturas  -u "usuario:clave" -H "Content-Type:application/json" -d "{\”id_pedido\”:1,\”importe\”:11.33}"</div>
+        </div>
+
+        <div class="i">
+            <div class="r">PUT: facturas/&lt;id_factura&gt; &lt;descuento&gt; &lt;base&gt; &lt;iva&gt; &lt;total&gt;</div>
+            <div class="c">Modifica la factura con el id dado</div>
+            <div class="c">Necesita credenciales</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl -X PUT http://10.202.20.125/petrest/facturas/1 -u "usuario:clave" -H "Content-Type:application/json" -d "{\”descuento\”:22.33,\”base\”:45.67,\”ova\”:2.17,\”total\”:45.67}"</div>
+        </div>
+        
+        <div class="i">
+            <div class="r">DELETE facturas </div>
+            <div class="c">Resetea todas las facturas del usuario</div>
+            <div class="c">Necesita credenciales</div>
+            <div class="l">Ej. con curl</div>
+            <div class="ej">curl -X DELETE 10.202.20.125/petrest/facturas  -u "usuario:clave"</div>
+        </div>
+        
+        <input id="h" type="text"/>
+    </body>
+</html>
