@@ -108,6 +108,33 @@ public class Facturar {
         System.out.println("\nFactura " + nuevaFacturaId);
         JSONObject factura = HTTP.Get_object("http://"+ addr + "/petrest/facturas/" + nuevaFacturaId);
         System.out.println(formatFactura(factura));
+
+
+        /*
+            // Imprimir factura
+            System.out.println("######################################################################################");
+            System.out.println("FACTURA");
+            System.out.printf("%-15s %s\n","Fecha:",fecha);
+            System.out.println();
+            System.out.printf("%-15s %s\n","Cliente:",cliente.nombre);
+            System.out.printf("%-15s %s\n","CIF",cliente.cif);
+            System.out.printf("%-15s %s\n","Dirección:",cliente.direccion);
+            System.out.println();
+            System.out.printf("%-10s %-50s %6s %8s %8s\n","Referencia","Nombre","Precio","Cantidad","Valor");
+            System.out.println("--------------------------------------------------------------------------------------");
+		
+            // Imprimir pedido
+            System.out.printf("%-10s %-50s %6.2f %8d %8.2f\n",articulo.referencia,articulo.nombre,articulo.precio,item.cantidad, valor);
+
+            // Imprimir importe
+            System.out.println("                                                               -----------------------");
+            System.out.printf("%75s %10.2f\n","Importe",factura.importe);
+            System.out.printf("%75s %10.2f\n","Descuento",factura.descuento);
+            System.out.printf("%75s %10.2f\n","Base",factura.base);
+            System.out.printf("%75s %10.2f\n","IVA",factura.iva);
+            System.out.println("                                                               -----------------------");
+            System.out.printf("%75s %10.2f\n","TOTAL",factura.total);
+        */
     }
 
     private static String formatCliente(JSONObject cliente) {

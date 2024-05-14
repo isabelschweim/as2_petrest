@@ -1,5 +1,4 @@
-Imprimir factura		
-		
+Imprimir factura
 		System.out.println("######################################################################################");
 		System.out.println("FACTURA");
 		System.out.printf("%-15s %s\n","Fecha:",fecha);
@@ -12,10 +11,7 @@ Imprimir factura
 		System.out.println("--------------------------------------------------------------------------------------");
 		
 Imprimir pedido
-		System.out.printf(
-				"%-10s %-50s %6.2f %8d %8.2f\n"
-				,articulo.referencia,articulo.nombre
-				,articulo.precio,item.cantidad, valor);		
+		System.out.printf("%-10s %-50s %6.2f %8d %8.2f\n",articulo.referencia,articulo.nombre,articulo.precio,item.cantidad, valor);
 
 Imprimir importe
 		System.out.println("                                                               -----------------------");
