@@ -1,9 +1,9 @@
 import org.json.simple.JSONObject;
 
 public class Item {
-    private int id;
-    private int idArticulo;
-    private int cantidad;
+    public int id;
+    public int idArticulo;
+    public int cantidad;
 
     public Item(JSONObject itemData) {
         this.id = ((Long) itemData.get("id")).intValue();

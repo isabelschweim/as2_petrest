@@ -1,10 +1,10 @@
 import org.json.simple.JSONObject;
 
 public class Articulo {
-    private int id;
-    private String referencia;
-    private String nombre;
-    private double precio;
+    public int id;
+    public String referencia;
+    public String nombre;
+    public double precio;
 
     public Articulo(JSONObject articuloData) {
         this.id = ((Long) articuloData.get("id")).intValue();

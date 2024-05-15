@@ -1,11 +1,11 @@
 import org.json.simple.JSONObject;
 
 public class Cliente {
-    private int id;
-    private String cif;
-    private String nombre;
-    private String direccion;
-    private double descuento;
+    public int id;
+    public String cif;
+    public String nombre;
+    public String direccion;
+    public double descuento;
 
     public Cliente(JSONObject clienteData) {
         this.id = ((Long) clienteData.get("id")).intValue();

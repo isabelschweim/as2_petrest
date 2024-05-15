@@ -1,13 +1,13 @@
 import org.json.simple.JSONObject;
 
 public class Factura {
-    private int id;
-    private int idPedido;
-    private double importe;
-    private double descuento;
-    private double base;
-    private double iva;
-    private double total;
+    public int id;
+    public int idPedido;
+    public double importe;
+    public double descuento;
+    public double base;
+    public double iva;
+    public double total;
 
     public Factura(JSONObject facturaData) {
         this.id = ((Long) facturaData.get("id_factura")).intValue();
