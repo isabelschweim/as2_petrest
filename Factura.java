@@ -19,35 +19,6 @@ public class Factura {
         this.total = (double) facturaData.get("total");
     }
 
-    // Getters
-    public int getId() {
-        return id;
-    }
-
-    public int getIdPedido() {
-        return idPedido;
-    }
-
-    public double getImporte() {
-        return importe;
-    }
-
-    public double getDescuento() {
-        return descuento;
-    }
-
-    public double getBase() {
-        return base;
-    }
-
-    public double getIva() {
-        return iva;
-    }
-
-    public double getTotal() {
-        return total;
-    }
-
     @Override
     public String toString() {
         return "Factura{" +

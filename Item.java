@@ -11,19 +11,6 @@ public class Item {
         this.cantidad = ((Long) itemData.get("cantidad")).intValue();
     }
 
-    // Getters
-    public int getId() {
-        return id;
-    }
-
-    public int getIdArticulo() {
-        return idArticulo;
-    }
-
-    public int getCantidad() {
-        return cantidad;
-    }
-
     @Override
     public String toString() {
         return "Item{" +

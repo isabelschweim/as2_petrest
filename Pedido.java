@@ -11,19 +11,6 @@ public class Pedido {
         this.fecha = (String) pedidoData.get("fecha");
     }
 
-    // Getters
-    public int getId() {
-        return id;
-    }
-
-    public int getIdCliente() {
-        return idCliente;
-    }
-
-    public String getFecha() {
-        return fecha;
-    }
-
     @Override
     public String toString() {
         return "Pedido{" +
