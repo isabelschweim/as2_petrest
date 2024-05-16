@@ -25,43 +25,47 @@ public class Facturar {
         // Restablecer las facturas
         HTTP.Delete("http://" + addr + "/petrest/facturas");
 
+        // Asumir que los IDs son aleatorios
         // Imprimir por pantalla cada factura
         for (int i = 1; i <= numPedidos; i++) {
             System.out.println("######################################################################################");
             System.out.println("FACTURA");
             
             // Obtener el pedido
-            JSONObject pedido = HTTP.Get_object("http://"+ addr + "/petrest/pedidos/" + i);
+            // Seleccionar el id del pedido del array de pedidos, segun la iteracion
+            int idPedido = ((Long) pedidosIds.get(i-1)).intValue();
+            JSONObject pedido = HTTP.Get_object("http://" + addr + "/petrest/pedidos/" + idPedido);
 
             // Obtener la fecha del pedido
             Object fechaObject = pedido.get("fecha");
             String fechaSinFormato = (fechaObject != null) ? fechaObject.toString() : "";
             String fecha = formatFecha(fechaSinFormato);
-            System.out.printf("%-15s %s\n","Fecha:", fecha);
+            System.out.printf("%-15s %s\n", "Fecha:", fecha);
             System.out.println();
 
             // Obtener los datos del cliente
-            JSONObject clienteObject = HTTP.Get_object("http://"+ addr + "/petrest/clientes/" + pedido.get("id_cliente"));
+            JSONObject clienteObject = HTTP.Get_object("http://" + addr + "/petrest/clientes/" + pedido.get("id_cliente"));
             Cliente cliente = new Cliente(clienteObject);
 
-            System.out.printf("%-15s %s\n","Cliente:", cliente.nombre);
-            System.out.printf("%-15s %s\n","CIF", cliente.cif);
-            System.out.printf("%-15s %s\n","Dirección:", cliente.direccion);
+            System.out.printf("%-15s %s\n", "Cliente:", cliente.nombre);
+            System.out.printf("%-15s %s\n", "CIF", cliente.cif);
+            System.out.printf("%-15s %s\n", "Dirección:", cliente.direccion);
             System.out.println();
             System.out.printf("%-10s %-50s %6s %8s %8s\n", "Referencia", "Nombre", "Precio", "Cantidad", "Valor");
             System.out.println("--------------------------------------------------------------------------------------");
 
             // Restablecer el valor total en cada iteracion
             int valorTotal = 0;
+            double importeTotal = 0;
 
             // Obtener los items del pedido
-            JSONArray itemsPedido = HTTP.Get_array("http://"+ addr + "/petrest/pedidos/"+ i +"/items");
+            JSONArray itemsPedido = HTTP.Get_array("http://" + addr + "/petrest/pedidos/" + i + "/items");
             for (Object itemObj : itemsPedido) {
                 JSONObject itemObject = (JSONObject) itemObj;
 
                 // Obtener cada articulo
                 int idArticulo = ((Long) itemObject.get("id_articulo")).intValue();
-                JSONObject articuloObject = HTTP.Get_object("http://"+ addr + "/petrest/articulos/" + idArticulo);
+                JSONObject articuloObject = HTTP.Get_object("http://" + addr + "/petrest/articulos/" + idArticulo);
 
                 Articulo articulo = new Articulo(articuloObject);
                 Item item = new Item(itemObject);
@@ -71,7 +75,13 @@ public class Facturar {
                 // Imprimir los datos de cada articulo
                 System.out.printf("%-10s %-50s %6.2f %8d %8.2f\n", articulo.referencia, articulo.nombre, articulo.precio, item.cantidad, valor);
                 valorTotal += valor; // Acumular el valor total
+                importeTotal += articulo.precio * item.cantidad;
             }
+
+            double descuento = cliente.descuento * importeTotal / 100;
+            double base = importeTotal - descuento;
+            double iva = base * 0.21;
+            double total = base + iva;
 
             // Crear nueva factura
             JSONObject facturaData = new JSONObject();
@@ -86,10 +96,14 @@ public class Facturar {
 
             // Completar la factura
             JSONObject facturaModificacion = new JSONObject();
-            facturaModificacion.put("descuento", cliente.descuento);
-            facturaModificacion.put("base", valorTotal - cliente.descuento);
-            facturaModificacion.put("iva", (valorTotal - cliente.descuento) * 0.21);
-            facturaModificacion.put("total", valorTotal + (valorTotal - cliente.descuento) * 0.21);
+            // facturaModificacion.put("descuento", cliente.descuento);
+            // facturaModificacion.put("base", valorTotal - cliente.descuento);
+            // facturaModificacion.put("iva", (valorTotal - cliente.descuento) * 0.21);
+            // facturaModificacion.put("total", valorTotal + (valorTotal - cliente.descuento) * 0.21);
+            facturaModificacion.put("descuento", descuento);
+            facturaModificacion.put("base", base);
+            facturaModificacion.put("iva", iva);
+            facturaModificacion.put("total", total);
             HTTP.Put("http://" + addr + "/petrest/facturas/" + nuevaFacturaId, facturaModificacion.toString());
 
             JSONObject facturaObject = HTTP.Get_object("http://" + addr + "/petrest/facturas/" + nuevaFacturaId);
