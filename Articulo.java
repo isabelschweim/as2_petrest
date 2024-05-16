@@ -17,6 +17,6 @@ public class Articulo {
         this.id = ((Long) articuloData.get("id")).intValue();
         this.referencia = (String) articuloData.get("referencia");
         this.nombre = (String) articuloData.get("nombre");
-        this.precio = ((Number) articuloData.get("precio")).doubleValue();
+        this.precio = (double) articuloData.get("precio");
     }
 }

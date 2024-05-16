@@ -19,6 +19,6 @@ public class Cliente {
         this.cif = (String) clienteData.get("cif");
         this.nombre = (String) clienteData.get("nombre");
         this.direccion = (String) clienteData.get("direccion");
-        this.descuento = ((Number) clienteData.get("descuento")).doubleValue();
+        this.descuento = (double) clienteData.get("descuento");
     }
 }

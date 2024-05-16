@@ -1,10 +1,17 @@
+/*
+ * Arquitectura de Sistemas II - Practica 3
+ * Requests.java
+ * Rodrigo De Lama - 100451775
+ * Isabel Schweim - 100460211
+ */
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 public class Requests {
 
-    // private static String addr = "10.202.20.125"; // Direccion IP de Luis
-    private static String addr = "127.0.0.1";
+    private static String addr = "10.202.20.125"; // Direccion IP de Luis
+    // private static String addr = "127.0.0.1"; // Para pruebas locales
     private static String user = "Pareja1";
     private static String pass = "rEf@ZO{TU";
 
@@ -18,10 +25,11 @@ public class Requests {
         HTTP.Delete("http://" + addr + "/petrest/facturas");
     }
 
-    // Recoleccion de todos los pedidos
-    // public static JSONArray getPedidosIds() {
-    //     return HTTP.Get_array("http://" + addr + "/petrest/pedidos");
-    // }
+    // Obtener un pedido a partir de su ID
+    public static Pedido getPedido(int id) {
+        JSONObject pedidoData = HTTP.Get_object("http://" + addr + "/petrest/pedidos/" + id);
+        return new Pedido(pedidoData);
+    }
 
     // Recoleccion de todos los pedidos en un array de objetos Pedido
     public static Pedido[] getPedidos() {
@@ -31,12 +39,6 @@ public class Requests {
             pedidos[i] = getPedido(((Long) pedidosArray.get(i)).intValue());
         }
         return pedidos;
-    }
-
-    // Obtener un pedido a partir de su ID
-    public static Pedido getPedido(int id) {
-        JSONObject pedidoData = HTTP.Get_object("http://" + addr + "/petrest/pedidos/" + id);
-        return new Pedido(pedidoData);
     }
 
     // Obtener los datos de un cliente a partir de su ID
@@ -68,11 +70,8 @@ public class Requests {
         factura.put("importe", importe);
         HTTP.Post("http://" + addr + "/petrest/facturas", factura.toString());
     }
-    // public static void postFactura(String factura) {
-    //     HTTP.Post("http://" + addr + "/petrest/facturas", factura);
-    // }
 
-    // Obtener el id de la factura
+    // Obtener el id de la nueva factura creada
     public static int getFacturaId(int i) {
         JSONArray idNuevaFactura = HTTP.Get_array("http://" + addr + "/petrest/facturas");
         Long nuevaFacturaIdLong = (Long) idNuevaFactura.get(i-1); // Obtener el id del array de la nueva factura (debe ser long)
@@ -90,7 +89,7 @@ public class Requests {
         HTTP.Put("http://" + addr + "/petrest/facturas/" + id, facturaModificacion.toString());
     }
 
-    // Descargar factura
+    // Descargar factura completa
     public static Factura getFactura(int id) {
         JSONObject facturaData = HTTP.Get_object("http://" + addr + "/petrest/facturas/" + id);
         return new Factura(facturaData);
