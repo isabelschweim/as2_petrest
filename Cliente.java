@@ -1,3 +1,10 @@
+/*
+ * Arquitectura de Sistemas II - Practica 3
+ * Cliente.java
+ * Rodrigo De Lama - 100451775
+ * Isabel Schweim - 100460211
+ */
+
 import org.json.simple.JSONObject;
 
 public class Cliente {
@@ -13,10 +20,5 @@ public class Cliente {
         this.nombre = (String) clienteData.get("nombre");
         this.direccion = (String) clienteData.get("direccion");
         this.descuento = ((Number) clienteData.get("descuento")).doubleValue();
-    }
-
-    @Override
-    public String toString() {
-        return String.format("{%d,'%s','%s','%s',%.6f}", id, cif, nombre, direccion, descuento);
     }
 }

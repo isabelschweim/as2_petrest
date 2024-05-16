@@ -1,3 +1,10 @@
+/*
+ * Arquitectura de Sistemas II - Practica 3
+ * Item.java
+ * Rodrigo De Lama - 100451775
+ * Isabel Schweim - 100460211
+ */
+
 import org.json.simple.JSONObject;
 
 public class Item {
@@ -9,14 +16,5 @@ public class Item {
         this.id = ((Long) itemData.get("id")).intValue();
         this.idArticulo = ((Long) itemData.get("id_articulo")).intValue();
         this.cantidad = ((Long) itemData.get("cantidad")).intValue();
-    }
-
-    @Override
-    public String toString() {
-        return "Item{" +
-                "id=" + id +
-                ", idArticulo=" + idArticulo +
-                ", cantidad=" + cantidad +
-                '}';
     }
 }

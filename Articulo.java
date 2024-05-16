@@ -1,3 +1,10 @@
+/*
+ * Arquitectura de Sistemas II - Practica 3
+ * Articulo.java
+ * Rodrigo De Lama - 100451775
+ * Isabel Schweim - 100460211
+ */
+
 import org.json.simple.JSONObject;
 
 public class Articulo {
@@ -11,10 +18,5 @@ public class Articulo {
         this.referencia = (String) articuloData.get("referencia");
         this.nombre = (String) articuloData.get("nombre");
         this.precio = ((Number) articuloData.get("precio")).doubleValue();
-    }
-
-    @Override
-    public String toString() {
-        return String.format("{%d,'%s','%s',%.2f}", id, referencia, nombre, precio);
     }
 }

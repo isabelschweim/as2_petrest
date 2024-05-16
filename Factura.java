@@ -1,3 +1,10 @@
+/*
+ * Arquitectura de Sistemas II - Practica 3
+ * Factura.java
+ * Rodrigo De Lama - 100451775
+ * Isabel Schweim - 100460211
+ */
+
 import org.json.simple.JSONObject;
 
 public class Factura {
@@ -17,18 +24,5 @@ public class Factura {
         this.base = (double) facturaData.get("base");
         this.iva = (double) facturaData.get("iva");
         this.total = (double) facturaData.get("total");
-    }
-
-    @Override
-    public String toString() {
-        return "Factura{" +
-                "id=" + id +
-                ", idPedido=" + idPedido +
-                ", importe=" + importe +
-                ", descuento=" + descuento +
-                ", base=" + base +
-                ", iva=" + iva +
-                ", total=" + total +
-                '}';
     }
 }
