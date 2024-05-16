@@ -37,15 +37,17 @@ public class Facturar {
         //     System.out.println("artículo: " + formatArticulo(articulo));
         // }
 
-        // e. Imprimir la lista de los ids de todos los pedidos
-        System.out.println("\nIds de pedidos");
+        // System.out.println("\nIds de pedidos");
         JSONArray pedidosIds = HTTP.Get_array("http://"+ addr + "/petrest/pedidos");
-        System.out.println(pedidosIds);
+        // System.out.println(pedidosIds);
         int numPedidos = pedidosIds.size();
-        System.err.println("Hay que imprimir: " + numPedidos + " pedidos");
+        // System.err.println("Hay que imprimir: " + numPedidos + " pedidos");
 
         // f. Imprimir los pedidos con id entre 1 y 5 individualmente
         // System.out.println("\nPedidos del 1 al 5");
+
+        // Restablecer las facturas
+        HTTP.Delete("http://" + addr + "/petrest/facturas");
 
         // Imprimir por pantalla todos los pedidos
         for (int i = 1; i <= numPedidos; i++) {
@@ -58,7 +60,8 @@ public class Facturar {
             
             // Get the fecha (date) from the pedido object
             Object fechaObject = pedido.get("fecha");
-            String fecha = (fechaObject != null) ? fechaObject.toString() : "";
+            String fechaSinFormato = (fechaObject != null) ? fechaObject.toString() : "";
+            String fecha = formatFecha(fechaSinFormato);
             System.out.printf("%-15s %s\n","Fecha:", fecha);
             System.out.println();
 
@@ -81,6 +84,7 @@ public class Facturar {
             System.out.printf("%-10s %-50s %6s %8s %8s\n", "Referencia", "Nombre", "Precio", "Cantidad", "Valor");
             System.out.println("--------------------------------------------------------------------------------------");
 
+            int valorTotal = 0;
             JSONArray itemsPedido = HTTP.Get_array("http://"+ addr + "/petrest/pedidos/"+ i +"/items");
             for (Object itemObj : itemsPedido) {
                 JSONObject itemObject = (JSONObject) itemObj;
@@ -92,22 +96,95 @@ public class Facturar {
                 Item item = new Item(itemObject);
                 double valor = item.cantidad * articulo.precio;
 
+                // Printing the values with ',' instead of '.'
+                // System.out.printf("%-10s %-50s %6s %8d %8s\n", articulo.referencia, articulo.nombre, String.valueOf(articulo.precio).replace('.', ','), item.cantidad, String.valueOf(valor).replace('.', ','));
+                
                 // Imprimir pedido
                 System.out.printf("%-10s %-50s %6.2f %8d %8.2f\n", articulo.referencia, articulo.nombre, articulo.precio, item.cantidad, valor);
+                valorTotal += valor;
             }
-            JSONArray facturas = HTTP.Get_array("http://" + addr + "/petrest/facturas");
-            System.out.println(formatFactura(facturas));
+            
+            // System.out.println("Salimos ------------------------------------------------------------------------------");
+            // Crear Factura
+            JSONObject facturaData = new JSONObject();
+            /*
+            {
+                "id": 7791,
+                "id_pedido": 1,
+                "importe": 1235.22,
+                "descuento": 123.52,
+                "base": 1111.7,
+                "iva": 233.46,
+                "total": 1345.16
+            }
+             */
+            // facturaData.put("id_factura", i);
+            // i. Crear una nueva factura con id_pedido=1, importe=1235.22
+            // JSONObject facturaData = new JSONObject();
+            facturaData.put("id_pedido", i);
+            facturaData.put("importe", valorTotal);
+                //curl -X POST http://127.0.0.1/petrest/facturas -u "Pareja1:rEf@ZO{TU" -H "Content-Type:application/json" -d "{\"id_pedido\":1,\"importe\":1235.22}"
+            HTTP.Post("http://" + addr + "/petrest/facturas", facturaData.toString());
+
+            // j. Modificar la factura con descuento=123.52, base=1111.70, iva=233.46, total=1345.16
+            // GET request to retrieve the newly created factura
+            JSONArray idNuevaFactura = HTTP.Get_array("http://" + addr + "/petrest/facturas");
+            // Print the idNuevaFactura
+            // System.out.println("idNuevaFactura: " + idNuevaFactura);
+            // int nuevaFacturaId = (Integer) idNuevaFactura.get(0); // It MUST be a long, since thats what we recieve
+            // Exception in thread "main" java.lang.ClassCastException: class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap')
+            // at Facturar.main(Facturar.java:94)
+
+            // System.out.println("Preput -------------------------------------------------------------------------------");
+
+            // facturaData.put("id_pedido", i);
+            // facturaData.put("importe", valorTotal);
+            // facturaData.put("descuento", cliente.descuento);
+            // facturaData.put("base", valorTotal - cliente.descuento);
+            // facturaData.put("iva", (valorTotal - cliente.descuento) * 0.21);
+            // facturaData.put("total", valorTotal + (valorTotal - cliente.descuento) * 0.21);
+            // Get the first element of the JSONArray
+            Long nuevaFacturaIdLong = (Long) idNuevaFactura.get(0);
+            // Convert the Long value to an int
+            int nuevaFacturaId = nuevaFacturaIdLong.intValue();
+            // Print the nuevaFacturaId
+            // System.out.println("nuevaFacturaId: " + nuevaFacturaId);
+
+            JSONObject facturaModificacion = new JSONObject();
+            facturaModificacion.put("descuento", cliente.descuento);
+            facturaModificacion.put("base", valorTotal - cliente.descuento);
+            facturaModificacion.put("iva", (valorTotal - cliente.descuento) * 0.21);
+            facturaModificacion.put("total", valorTotal + (valorTotal - cliente.descuento) * 0.21);
+            HTTP.Put("http://" + addr + "/petrest/facturas/" + nuevaFacturaId, facturaModificacion.toString());
+            // System.out.println("Completar factura");
+            // System.out.println("Hecho");
+            
+            // System.out.println(facturaData.toString());
+            // System.out.println("Preput -------------------------------------------------------------------------------");
+            // HTTP.Post("http://" + addr + "/petrest/facturas/" + i, facturaData.toString());
+            // System.out.println("Postput ------------------------------------------------------------------------------");
+
             // Imprimir importe
-            JSONObject facturaObject = HTTP.Get_object("http://"+ addr + "/petrest/facturas/" + i);
+            // JSONObject facturaObject = HTTP.Get_object("http://" + addr + "/petrest/facturas/" + i);
+            JSONObject facturaObject = HTTP.Get_object("http://" + addr + "/petrest/facturas/" + nuevaFacturaId);
+            // System.out.println("Post Get Object ----------------------------------------------------------------------");
+            // System.out.println(formatFactura(facturaObject));
+            
             Factura factura = new Factura(facturaObject);
+            // System.out.println("Post Factura -------------------------------------------------------------------------");
             
             System.out.println("                                                               -----------------------");
             System.out.printf("%75s %10.2f\n","Importe", factura.importe);
             System.out.printf("%75s %10.2f\n","Descuento", factura.descuento);
             System.out.printf("%75s %10.2f\n","Base", factura.base);
             System.out.printf("%75s %10.2f\n","IVA", factura.iva);
+            // System.out.printf("%75s %s\n","Importe", String.valueOf(factura.importe).replace('.', ','));
+            // System.out.printf("%75s %s\n","Descuento", String.valueOf(factura.descuento).replace('.', ','));
+            // System.out.printf("%75s %s\n","Base", String.valueOf(factura.base).replace('.', ','));
+            // System.out.printf("%75s %s\n","IVA", String.valueOf(factura.iva).replace('.', ','));
             System.out.println("                                                               -----------------------");
             System.out.printf("%75s %10.2f\n","TOTAL", factura.total);
+            // System.out.printf("%75s %s\n","TOTAL", String.valueOf(factura.total).replace('.', ','));
         }
 
         // // g. Imprimir los ítems del pedido 1

@@ -10,7 +10,7 @@ public class Factura {
     public double total;
 
     public Factura(JSONObject facturaData) {
-        this.id = ((Long) facturaData.get("id_factura")).intValue();
+        this.id = ((Long) facturaData.get("id")).intValue();
         this.idPedido = ((Long) facturaData.get("id_pedido")).intValue();
         this.importe = (double) facturaData.get("importe");
         this.descuento = (double) facturaData.get("descuento");

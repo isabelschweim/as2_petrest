@@ -8,15 +8,15 @@ Dirección:      Calle de Ercilla  23, 47522 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-WH6296     COLLAR MALLA REGLABLE 30-45 CM*15 MM AZUL            2,40        1     2,40
-QG2811     ARNER REJUSTABLE 50-70CM NEGRO                       4,50        2     9,00
+WH6296     COLLAR MALLA REGLABLE 30-45 CM*15 MM AZUL             2,4        1      2,4
+QG2811     ARNER REJUSTABLE 50-70CM NEGRO                        4,5        2      9,0
                                                                -----------------------
-                                                                    Importe      11,40
-                                                                  Descuento       0,14
-                                                                       Base      11,26
-                                                                        IVA       2,37
+                                                                    Importe 11,0
+                                                                  Descuento 1,2
+                                                                       Base 9,8
+                                                                        IVA 2,058
                                                                -----------------------
-                                                                      TOTAL      13,63
+                                                                      TOTAL 13,058
 ######################################################################################
 FACTURA
 Fecha:          09-01-2023
@@ -31,14 +31,14 @@ HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        1   
 WV3059     COMEDERO DOBLE TAILOR                                0,95        1     0,95
 OB9925     BEBEDERO MASCOTA 500 ML SURTIDO COLORES              2,45        1     2,45
 DT2386     CUNA MASCOTA HUELLAS RESPALDO 2 COL MI              18,75        3    56,25
-YG7269     PECERA MEDIANA 24X17 CM BLANCA CON ASA               7,40        1     7,40
+YG7269     PECERA MEDIANA 24X17 CM BLANCA CON ASA                7,4        1      7,4
                                                                -----------------------
-                                                                    Importe      83,70
-                                                                  Descuento       5,94
-                                                                       Base      77,76
-                                                                        IVA      16,33
+                                                                    Importe 11,0
+                                                                  Descuento 7,1
+                                                                       Base 73,9
+                                                                        IVA 15,519
                                                                -----------------------
-                                                                      TOTAL      94,09
+                                                                      TOTAL 96,519
 ######################################################################################
 FACTURA
 Fecha:          14-01-2023
@@ -49,19 +49,19 @@ Dirección:      Pza Menéndez Pelayo 12, 20509 Guipúzcoa
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL          3,80        2     7,60
+WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL           3,8        2      7,6
 AY2518     SET 3 PAQUETES X15 BOLSAS HECES MASCOTA              0,65        1     0,65
-BQ2910     CUBRE ASIENTOS MASCOTAS 142X147 CM                   9,60        1     9,60
+BQ2910     CUBRE ASIENTOS MASCOTAS 142X147 CM                    9,6        1      9,6
 TA6450     ARBOL PARA GATO CON CASA 35X56 CM                   25,15        1    25,15
 KX5186     COMEDERO DE PERRO BELLY 14 CM SURT                   3,55        5    17,75
-VK3269     JUGUETE PARA PERRO FORMA POLLO                       1,20        6     7,20
+VK3269     JUGUETE PARA PERRO FORMA POLLO                        1,2        6 7,199999999999999
                                                                -----------------------
-                                                                    Importe      67,95
-                                                                  Descuento       8,70
-                                                                       Base      59,25
-                                                                        IVA      12,44
+                                                                    Importe 11,0
+                                                                  Descuento 12,8
+                                                                       Base 52,2
+                                                                        IVA 10,962
                                                                -----------------------
-                                                                      TOTAL      71,70
+                                                                      TOTAL 75,962
 ######################################################################################
 FACTURA
 Fecha:          19-01-2023
@@ -72,17 +72,17 @@ Dirección:      Plaza del Olivar  5, 32393 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-AR5832     TAZON MOTIVO PATAS INOX 17 CM ROJO BRILLANTE         4,30        2     8,60
-EP8975     COLLAR MALLA REGLABLE 40-55CM*20 MM VERDE            3,00        2     6,00
-NW7248     TAZON MOTIVO PATAS INOX BLANCO BRILLANT              4,30        4    17,20
-QB8031     CUERDA ALGODON 2 NUDOS 28 CM                         2,00        3     6,00
+AR5832     TAZON MOTIVO PATAS INOX 17 CM ROJO BRILLANTE          4,3        2      8,6
+EP8975     COLLAR MALLA REGLABLE 40-55CM*20 MM VERDE             3,0        2      6,0
+NW7248     TAZON MOTIVO PATAS INOX BLANCO BRILLANT               4,3        4     17,2
+QB8031     CUERDA ALGODON 2 NUDOS 28 CM                          2,0        3      6,0
                                                                -----------------------
-                                                                    Importe      37,80
-                                                                  Descuento       0,87
-                                                                       Base      36,93
-                                                                        IVA       7,76
+                                                                    Importe 11,0
+                                                                  Descuento 2,3
+                                                                       Base 34,7
+                                                                        IVA 7,287
                                                                -----------------------
-                                                                      TOTAL      44,69
+                                                                      TOTAL 44,287
 ######################################################################################
 FACTURA
 Fecha:          13-02-2023
@@ -93,20 +93,20 @@ Dirección:      Camino Quijorna  35, 35371 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-AR5832     TAZON MOTIVO PATAS INOX 17 CM ROJO BRILLANTE         4,30        3    12,90
-QB8031     CUERDA ALGODON 2 NUDOS 28 CM                         2,00        1     2,00
-XY9425     CUERDA EN FORMA DE 8 DE ALGODON CON PUNTO DE PLAST   2,25        2     4,50
-BQ2910     CUBRE ASIENTOS MASCOTAS 142X147 CM                   9,60        1     9,60
-NB3627     TAZON MOTIVO PATAS INOX ROJO BRILLANT                6,55        6    39,30
-HI2907     CUNA MASCOTA OVAL TELA CUADROS SURT 2               22,90        5   114,50
-WV3059     COMEDERO DOBLE TAILOR                                0,95        2     1,90
+AR5832     TAZON MOTIVO PATAS INOX 17 CM ROJO BRILLANTE          4,3        3 12,899999999999999
+QB8031     CUERDA ALGODON 2 NUDOS 28 CM                          2,0        1      2,0
+XY9425     CUERDA EN FORMA DE 8 DE ALGODON CON PUNTO DE PLAST   2,25        2      4,5
+BQ2910     CUBRE ASIENTOS MASCOTAS 142X147 CM                    9,6        1      9,6
+NB3627     TAZON MOTIVO PATAS INOX ROJO BRILLANT                6,55        6     39,3
+HI2907     CUNA MASCOTA OVAL TELA CUADROS SURT 2                22,9        5    114,5
+WV3059     COMEDERO DOBLE TAILOR                                0,95        2      1,9
                                                                -----------------------
-                                                                    Importe     184,70
-                                                                  Descuento      20,13
-                                                                       Base     164,57
-                                                                        IVA      34,56
+                                                                    Importe 11,0
+                                                                  Descuento 10,9
+                                                                       Base 170,1
+                                                                        IVA 35,721
                                                                -----------------------
-                                                                      TOTAL     199,13
+                                                                      TOTAL 216,721
 ######################################################################################
 FACTURA
 Fecha:          12-03-2023
@@ -117,17 +117,17 @@ Dirección:      Calle Botero  18, 33358 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-IF1321     BOLSA DE TRANSPORTE  BICOLOR ROJO / GRIS  46*25*12  19,20        2    38,40
-JK2682     ARBOL PARA GATOS GRIS                               18,75        2    37,50
-PT7289     BRHUESOSE MADERA DOBLE+PUNTAS DE ACERO GIGANTES 25   3,30        2     6,60
-AY2518     SET 3 PAQUETES X15 BOLSAS HECES MASCOTA              0,65        3     1,95
+IF1321     BOLSA DE TRANSPORTE  BICOLOR ROJO / GRIS  46*25*12   19,2        2     38,4
+JK2682     ARBOL PARA GATOS GRIS                               18,75        2     37,5
+PT7289     BRHUESOSE MADERA DOBLE+PUNTAS DE ACERO GIGANTES 25    3,3        2      6,6
+AY2518     SET 3 PAQUETES X15 BOLSAS HECES MASCOTA              0,65        3 1,9500000000000002
                                                                -----------------------
-                                                                    Importe      84,45
-                                                                  Descuento       0,42
-                                                                       Base      84,03
-                                                                        IVA      17,65
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 81,5
+                                                                        IVA 17,115
                                                                -----------------------
-                                                                      TOTAL     101,67
+                                                                      TOTAL 99,115
 ######################################################################################
 FACTURA
 Fecha:          10-01-2023
@@ -138,17 +138,17 @@ Dirección:      Calle Monte Cervino  17, 22857 Huesca
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-IF1321     BOLSA DE TRANSPORTE  BICOLOR ROJO / GRIS  46*25*12  19,20        1    19,20
-BD3330     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE GRIS   4,00        1     4,00
-FE3771     MANOPLA CEPILLO MASCOTA                              3,70        3    11,10
-OB9925     BEBEDERO MASCOTA 500 ML SURTIDO COLORES              2,45        4     9,80
+IF1321     BOLSA DE TRANSPORTE  BICOLOR ROJO / GRIS  46*25*12   19,2        1     19,2
+BD3330     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE GRIS    4,0        1      4,0
+FE3771     MANOPLA CEPILLO MASCOTA                               3,7        3 11,100000000000001
+OB9925     BEBEDERO MASCOTA 500 ML SURTIDO COLORES              2,45        4      9,8
                                                                -----------------------
-                                                                    Importe      44,10
-                                                                  Descuento       0,00
-                                                                       Base      44,10
-                                                                        IVA       9,26
+                                                                    Importe 11,0
+                                                                  Descuento 0,0
+                                                                       Base 43,0
+                                                                        IVA 9,03
                                                                -----------------------
-                                                                      TOTAL      53,36
+                                                                      TOTAL 52,03
 ######################################################################################
 FACTURA
 Fecha:          04-03-2023
@@ -159,17 +159,17 @@ Dirección:      Calle Botero  18, 33358 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-WV3059     COMEDERO DOBLE TAILOR                                0,95        3     2,85
-GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM    3,30        1     3,30
-IF1321     BOLSA DE TRANSPORTE  BICOLOR ROJO / GRIS  46*25*12  19,20        5    96,00
-GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM    3,30        2     6,60
+WV3059     COMEDERO DOBLE TAILOR                                0,95        3 2,8499999999999996
+GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM     3,3        1      3,3
+IF1321     BOLSA DE TRANSPORTE  BICOLOR ROJO / GRIS  46*25*12   19,2        5     96,0
+GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM     3,3        2      6,6
                                                                -----------------------
-                                                                    Importe     108,75
-                                                                  Descuento       0,54
-                                                                       Base     108,21
-                                                                        IVA      22,72
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 106,5
+                                                                        IVA 22,365
                                                                -----------------------
-                                                                      TOTAL     130,93
+                                                                      TOTAL 129,365
 ######################################################################################
 FACTURA
 Fecha:          19-04-2023
@@ -180,19 +180,19 @@ Dirección:      Calle Botero  18, 33358 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-AR9081     ALFOMBRA RASCADORA PARA GATO DE CARTON              16,60        3    49,80
-WV3059     COMEDERO DOBLE TAILOR                                0,95        4     3,80
-NO4192     COLLAR MALLA REGLABLE 40-55CM*20 MM AZUL             3,00        3     9,00
-KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        6    41,70
-DV4975     COLLAR SILICONA 50X2.5CMCMX2MM ACABADO MATE ROSADO   6,30        2    12,60
-BO7760     COLLAR SILICONA 40X2CMX2MM. ACABADO MATE BLANCO      4,80        5    24,00
+AR9081     ALFOMBRA RASCADORA PARA GATO DE CARTON               16,6        3 49,800000000000004
+WV3059     COMEDERO DOBLE TAILOR                                0,95        4      3,8
+NO4192     COLLAR MALLA REGLABLE 40-55CM*20 MM AZUL              3,0        3      9,0
+KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        6     41,7
+DV4975     COLLAR SILICONA 50X2.5CMCMX2MM ACABADO MATE ROSADO    6,3        2     12,6
+BO7760     COLLAR SILICONA 40X2CMX2MM. ACABADO MATE BLANCO       4,8        5     24,0
                                                                -----------------------
-                                                                    Importe     140,90
-                                                                  Descuento       0,70
-                                                                       Base     140,20
-                                                                        IVA      29,44
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 137,5
+                                                                        IVA 28,875
                                                                -----------------------
-                                                                      TOTAL     169,64
+                                                                      TOTAL 166,875
 ######################################################################################
 FACTURA
 Fecha:          21-01-2023
@@ -203,17 +203,17 @@ Dirección:      Calle Doctor Fleming  14, 51371 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-NW7248     TAZON MOTIVO PATAS INOX BLANCO BRILLANT              4,30        4    17,20
-WV3059     COMEDERO DOBLE TAILOR                                0,95        9     8,55
-ID6917     CORREA MALLA 120*1.5 CM NEGRO                        3,80        3    11,40
-FO2644     COLLAR MALLA REGLABLE 45-65 CM * 25 MM ROSADO        3,80        3    11,40
+NW7248     TAZON MOTIVO PATAS INOX BLANCO BRILLANT               4,3        4     17,2
+WV3059     COMEDERO DOBLE TAILOR                                0,95        9 8,549999999999999
+ID6917     CORREA MALLA 120*1.5 CM NEGRO                         3,8        3 11,399999999999999
+FO2644     COLLAR MALLA REGLABLE 45-65 CM * 25 MM ROSADO         3,8        3 11,399999999999999
                                                                -----------------------
-                                                                    Importe      48,55
-                                                                  Descuento       0,58
-                                                                       Base      47,97
-                                                                        IVA      10,07
+                                                                    Importe 11,0
+                                                                  Descuento 1,2
+                                                                       Base 45,8
+                                                                        IVA 9,618
                                                                -----------------------
-                                                                      TOTAL      58,04
+                                                                      TOTAL 56,618
 ######################################################################################
 FACTURA
 Fecha:          26-04-2023
@@ -224,17 +224,17 @@ Dirección:      Calle Río Jarama  23, 14752 Córdoba
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-RF8258     BOLSAS HECES MASCOTAS X5 B(15)                       1,60        2     3,20
-WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL          3,80        7    26,60
-HH1506     COMEDERO DE PERRO BELLY 16 CM SURT                   4,90        3    14,70
-EP5119     COLLAR SILICONA 40X2CMX2 MM ACABADO MATE VERDE MEN   4,80        1     4,80
+RF8258     BOLSAS HECES MASCOTAS X5 B(15)                        1,6        2      3,2
+WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL           3,8        7 26,599999999999998
+HH1506     COMEDERO DE PERRO BELLY 16 CM SURT                    4,9        3 14,700000000000001
+EP5119     COLLAR SILICONA 40X2CMX2 MM ACABADO MATE VERDE MEN    4,8        1      4,8
                                                                -----------------------
-                                                                    Importe      49,30
-                                                                  Descuento       2,96
-                                                                       Base      46,34
-                                                                        IVA       9,73
+                                                                    Importe 11,0
+                                                                  Descuento 6,0
+                                                                       Base 41,0
+                                                                        IVA 8,61
                                                                -----------------------
-                                                                      TOTAL      56,07
+                                                                      TOTAL 55,61
 ######################################################################################
 FACTURA
 Fecha:          04-04-2023
@@ -245,17 +245,17 @@ Dirección:      Camino Quijorna  35, 35371 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-WV3059     COMEDERO DOBLE TAILOR                                0,95        4     3,80
+WV3059     COMEDERO DOBLE TAILOR                                0,95        4      3,8
 GH1584     TRANSPORTIN MALLA GRANDE SURT                       18,75        1    18,75
-KN8749     GATERA SURT ELEGANCE                                 3,60        4    14,40
-FE3771     MANOPLA CEPILLO MASCOTA                              3,70        1     3,70
+KN8749     GATERA SURT ELEGANCE                                  3,6        4     14,4
+FE3771     MANOPLA CEPILLO MASCOTA                               3,7        1      3,7
                                                                -----------------------
-                                                                    Importe      40,65
-                                                                  Descuento       4,43
-                                                                       Base      36,22
-                                                                        IVA       7,61
+                                                                    Importe 11,0
+                                                                  Descuento 10,9
+                                                                       Base 27,1
+                                                                        IVA 5,691
                                                                -----------------------
-                                                                      TOTAL      43,83
+                                                                      TOTAL 43,691
 ######################################################################################
 FACTURA
 Fecha:          22-02-2023
@@ -266,15 +266,15 @@ Dirección:      Calle Berlín  39, 27665 Lugo
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-YX4942     ARNER REJUSTABLE 50-70CM KAKI                        4,50        8    36,00
-FE3771     MANOPLA CEPILLO MASCOTA                              3,70        3    11,10
+YX4942     ARNER REJUSTABLE 50-70CM KAKI                         4,5        8     36,0
+FE3771     MANOPLA CEPILLO MASCOTA                               3,7        3 11,100000000000001
                                                                -----------------------
-                                                                    Importe      47,10
-                                                                  Descuento       1,04
-                                                                       Base      46,06
-                                                                        IVA       9,67
+                                                                    Importe 11,0
+                                                                  Descuento 2,2
+                                                                       Base 44,8
+                                                                        IVA 9,408
                                                                -----------------------
-                                                                      TOTAL      55,74
+                                                                      TOTAL 56,408
 ######################################################################################
 FACTURA
 Fecha:          26-04-2023
@@ -285,19 +285,19 @@ Dirección:      Calle de Irún  32, 14110 Córdoba
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-XB9133     COJIN REDONDO POIESTER D60*80 CM THINK PAWSITIVE M  17,35        2    34,70
-BH5878     CHAMPU PERROS Y GATOS FLOWER 400 ML                  7,60        6    45,60
-OT3616     JUGUETE PELUCHE MAPACHE POLYESTER SUPER RESISTENTE   8,30        1     8,30
-GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM    3,30        6    19,80
-KX5186     COMEDERO DE PERRO BELLY 14 CM SURT                   3,55        4    14,20
-QB8031     CUERDA ALGODON 2 NUDOS 28 CM                         2,00        3     6,00
+XB9133     COJIN REDONDO POIESTER D60*80 CM THINK PAWSITIVE M  17,35        2     34,7
+BH5878     CHAMPU PERROS Y GATOS FLOWER 400 ML                   7,6        6 45,599999999999994
+OT3616     JUGUETE PELUCHE MAPACHE POLYESTER SUPER RESISTENTE    8,3        1      8,3
+GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM     3,3        6 19,799999999999997
+KX5186     COMEDERO DE PERRO BELLY 14 CM SURT                   3,55        4     14,2
+QB8031     CUERDA ALGODON 2 NUDOS 28 CM                          2,0        3      6,0
                                                                -----------------------
-                                                                    Importe     128,60
-                                                                  Descuento      12,35
-                                                                       Base     116,25
-                                                                        IVA      24,41
+                                                                    Importe 11,0
+                                                                  Descuento 9,6
+                                                                       Base 116,4
+                                                                        IVA 24,444
                                                                -----------------------
-                                                                      TOTAL     140,67
+                                                                      TOTAL 150,444
 ######################################################################################
 FACTURA
 Fecha:          08-03-2023
@@ -308,16 +308,16 @@ Dirección:      Calle de José Manuel Cobián 12, 49543 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-AS7753     TIJERAS PARA ENTRESACAR PELAJE DE ACERO INOX+MANCH   8,55        2    17,10
-KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        4    27,80
-RB4947     JUGUETE PERRO PELOTA FUTBOL                          1,10        5     5,50
+AS7753     TIJERAS PARA ENTRESACAR PELAJE DE ACERO INOX+MANCH   8,55        2     17,1
+KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        4     27,8
+RB4947     JUGUETE PERRO PELOTA FUTBOL                           1,1        5      5,5
                                                                -----------------------
-                                                                    Importe      50,40
-                                                                  Descuento       0,25
-                                                                       Base      50,15
-                                                                        IVA      10,53
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 48,5
+                                                                        IVA 10,185
                                                                -----------------------
-                                                                      TOTAL      60,68
+                                                                      TOTAL 59,185
 ######################################################################################
 FACTURA
 Fecha:          28-01-2023
@@ -329,18 +329,18 @@ Dirección:      Calle Monte Cervino  17, 22857 Huesca
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
 KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        1     6,95
-MA2348     TAZON MOTIVO PATTAS INOX NEGRO BRILLANT ANTIDESLIZ   3,30        1     3,30
-PH8056     COJIN EN FORMADE HUESO POLIESTER 100*70*15 CM FAT   41,55        2    83,10
+MA2348     TAZON MOTIVO PATTAS INOX NEGRO BRILLANT ANTIDESLIZ    3,3        1      3,3
+PH8056     COJIN EN FORMADE HUESO POLIESTER 100*70*15 CM FAT   41,55        2     83,1
 TH9002     PROTECTOR DE MASCOTAS PARA COCHE                     8,25        7    57,75
-EP8975     COLLAR MALLA REGLABLE 40-55CM*20 MM VERDE            3,00        2     6,00
-HH1506     COMEDERO DE PERRO BELLY 16 CM SURT                   4,90        2     9,80
+EP8975     COLLAR MALLA REGLABLE 40-55CM*20 MM VERDE             3,0        2      6,0
+HH1506     COMEDERO DE PERRO BELLY 16 CM SURT                    4,9        2      9,8
                                                                -----------------------
-                                                                    Importe     166,90
-                                                                  Descuento       0,00
-                                                                       Base     166,90
-                                                                        IVA      35,05
+                                                                    Importe 11,0
+                                                                  Descuento 0,0
+                                                                       Base 164,0
+                                                                        IVA 34,44
                                                                -----------------------
-                                                                      TOTAL     201,95
+                                                                      TOTAL 198,44
 ######################################################################################
 FACTURA
 Fecha:          28-01-2023
@@ -351,18 +351,18 @@ Dirección:      Calle Monte Cervino  17, 22857 Huesca
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-NO4192     COLLAR MALLA REGLABLE 40-55CM*20 MM AZUL             3,00        6    18,00
-WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL          3,80        1     3,80
-TD9547     PECERA GRANDE 30X20 CM BLANCA CON ASA               11,50        1    11,50
-FX9008     RODILLO QUITA PELOS DE MASCOTAS +4                   1,90        6    11,40
-KN8749     GATERA SURT ELEGANCE                                 3,60        7    25,20
+NO4192     COLLAR MALLA REGLABLE 40-55CM*20 MM AZUL              3,0        6     18,0
+WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL           3,8        1      3,8
+TD9547     PECERA GRANDE 30X20 CM BLANCA CON ASA                11,5        1     11,5
+FX9008     RODILLO QUITA PELOS DE MASCOTAS +4                    1,9        6 11,399999999999999
+KN8749     GATERA SURT ELEGANCE                                  3,6        7     25,2
                                                                -----------------------
-                                                                    Importe      69,90
-                                                                  Descuento       0,00
-                                                                       Base      69,90
-                                                                        IVA      14,68
+                                                                    Importe 11,0
+                                                                  Descuento 0,0
+                                                                       Base 68,0
+                                                                        IVA 14,28
                                                                -----------------------
-                                                                      TOTAL      84,58
+                                                                      TOTAL 82,28
 ######################################################################################
 FACTURA
 Fecha:          08-01-2023
@@ -373,15 +373,15 @@ Dirección:      Calle Botero  18, 33358 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-RF8258     BOLSAS HECES MASCOTAS X5 B(15)                       1,60        4     6,40
-AY2518     SET 3 PAQUETES X15 BOLSAS HECES MASCOTA              0,65        4     2,60
+RF8258     BOLSAS HECES MASCOTAS X5 B(15)                        1,6        4      6,4
+AY2518     SET 3 PAQUETES X15 BOLSAS HECES MASCOTA              0,65        4      2,6
                                                                -----------------------
-                                                                    Importe       9,00
-                                                                  Descuento       0,05
-                                                                       Base       8,95
-                                                                        IVA       1,88
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 7,5
+                                                                        IVA 1,575
                                                                -----------------------
-                                                                      TOTAL      10,84
+                                                                      TOTAL 9,575
 ######################################################################################
 FACTURA
 Fecha:          11-03-2023
@@ -392,16 +392,16 @@ Dirección:      Calle de José Manuel Cobián 12, 49543 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-WG6075     BOLSA DE TRANSPORTE  BICOLOR ROJO/GRIS              25,60        3    76,80
-KX5186     COMEDERO DE PERRO BELLY 14 CM SURT                   3,55       10    35,50
-MA2348     TAZON MOTIVO PATTAS INOX NEGRO BRILLANT ANTIDESLIZ   3,30        5    16,50
+WG6075     BOLSA DE TRANSPORTE  BICOLOR ROJO/GRIS               25,6        3 76,80000000000001
+KX5186     COMEDERO DE PERRO BELLY 14 CM SURT                   3,55       10     35,5
+MA2348     TAZON MOTIVO PATTAS INOX NEGRO BRILLANT ANTIDESLIZ    3,3        5     16,5
                                                                -----------------------
-                                                                    Importe     128,80
-                                                                  Descuento       0,64
-                                                                       Base     128,16
-                                                                        IVA      26,91
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 126,5
+                                                                        IVA 26,565
                                                                -----------------------
-                                                                      TOTAL     155,07
+                                                                      TOTAL 153,565
 ######################################################################################
 FACTURA
 Fecha:          22-02-2023
@@ -412,15 +412,15 @@ Dirección:      Calle Vaciabotas  38, 28269 Madrid
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-GX9800     ARBOL PARA GATOS GRIS                               29,20        1    29,20
-XB9133     COJIN REDONDO POIESTER D60*80 CM THINK PAWSITIVE M  17,35        3    52,05
+GX9800     ARBOL PARA GATOS GRIS                                29,2        1     29,2
+XB9133     COJIN REDONDO POIESTER D60*80 CM THINK PAWSITIVE M  17,35        3 52,050000000000004
                                                                -----------------------
-                                                                    Importe      81,25
-                                                                  Descuento       5,12
-                                                                       Base      76,13
-                                                                        IVA      15,99
+                                                                    Importe 11,0
+                                                                  Descuento 6,3
+                                                                       Base 74,7
+                                                                        IVA 15,687
                                                                -----------------------
-                                                                      TOTAL      92,12
+                                                                      TOTAL 96,687
 ######################################################################################
 FACTURA
 Fecha:          08-01-2023
@@ -431,14 +431,14 @@ Dirección:      Calle Berlín  39, 27665 Lugo
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-TH9002     PROTECTOR DE MASCOTAS PARA COCHE                     8,25        4    33,00
+TH9002     PROTECTOR DE MASCOTAS PARA COCHE                     8,25        4     33,0
                                                                -----------------------
-                                                                    Importe      33,00
-                                                                  Descuento       0,73
-                                                                       Base      32,27
-                                                                        IVA       6,78
+                                                                    Importe 11,0
+                                                                  Descuento 2,2
+                                                                       Base 30,8
+                                                                        IVA 6,468
                                                                -----------------------
-                                                                      TOTAL      39,05
+                                                                      TOTAL 39,468
 ######################################################################################
 FACTURA
 Fecha:          24-03-2023
@@ -449,18 +449,18 @@ Dirección:      Calle Botero  18, 33358 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM    3,30        7    23,10
-KN8749     GATERA SURT ELEGANCE                                 3,60        4    14,40
-QB8031     CUERDA ALGODON 2 NUDOS 28 CM                         2,00        2     4,00
-TH9002     PROTECTOR DE MASCOTAS PARA COCHE                     8,25        6    49,50
-DT2386     CUNA MASCOTA HUELLAS RESPALDO 2 COL MI              18,75        4    75,00
+GB7119     PEINE PARA DESENREDAR PELAJE METAL+MANOG PP 20 CM     3,3        7 23,099999999999998
+KN8749     GATERA SURT ELEGANCE                                  3,6        4     14,4
+QB8031     CUERDA ALGODON 2 NUDOS 28 CM                          2,0        2      4,0
+TH9002     PROTECTOR DE MASCOTAS PARA COCHE                     8,25        6     49,5
+DT2386     CUNA MASCOTA HUELLAS RESPALDO 2 COL MI              18,75        4     75,0
                                                                -----------------------
-                                                                    Importe     166,00
-                                                                  Descuento       0,83
-                                                                       Base     165,17
-                                                                        IVA      34,69
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 164,5
+                                                                        IVA 34,545
                                                                -----------------------
-                                                                      TOTAL     199,86
+                                                                      TOTAL 199,545
 ######################################################################################
 FACTURA
 Fecha:          16-01-2023
@@ -471,15 +471,15 @@ Dirección:      Camino Quijorna  35, 35371 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-FE6452     TAZON MOTIVO PATAS INOX BLANCO BRILLANT              6,55        6    39,30
-HI2907     CUNA MASCOTA OVAL TELA CUADROS SURT 2               22,90        2    45,80
+FE6452     TAZON MOTIVO PATAS INOX BLANCO BRILLANT              6,55        6     39,3
+HI2907     CUNA MASCOTA OVAL TELA CUADROS SURT 2                22,9        2     45,8
                                                                -----------------------
-                                                                    Importe      85,10
-                                                                  Descuento       9,28
-                                                                       Base      75,82
-                                                                        IVA      15,92
+                                                                    Importe 11,0
+                                                                  Descuento 10,9
+                                                                       Base 73,1
+                                                                        IVA 15,351
                                                                -----------------------
-                                                                      TOTAL      91,75
+                                                                      TOTAL 99,351
 ######################################################################################
 FACTURA
 Fecha:          25-02-2023
@@ -490,16 +490,16 @@ Dirección:      Calle Sáhara  34, 35983 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-LQ2656     JUEGO PERRO CUERDA 6 MODELOS TAMAÑO PM               1,90        2     3,80
-TD9547     PECERA GRANDE 30X20 CM BLANCA CON ASA               11,50        3    34,50
-KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        2    13,90
+LQ2656     JUEGO PERRO CUERDA 6 MODELOS TAMAÑO PM                1,9        2      3,8
+TD9547     PECERA GRANDE 30X20 CM BLANCA CON ASA                11,5        3     34,5
+KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        2     13,9
                                                                -----------------------
-                                                                    Importe      52,20
-                                                                  Descuento       3,71
-                                                                       Base      48,49
-                                                                        IVA      10,18
+                                                                    Importe 11,0
+                                                                  Descuento 7,1
+                                                                       Base 42,9
+                                                                        IVA 9,009
                                                                -----------------------
-                                                                      TOTAL      58,68
+                                                                      TOTAL 59,009
 ######################################################################################
 FACTURA
 Fecha:          28-03-2023
@@ -510,19 +510,19 @@ Dirección:      Calle Berlín  39, 27665 Lugo
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-TA6450     ARBOL PARA GATO CON CASA 35X56 CM                   25,15        3    75,45
-YX4942     ARNER REJUSTABLE 50-70CM KAKI                        4,50        1     4,50
-GY6869     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE BLAN   4,00        4    16,00
-PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS             25,60        1    25,60
-KS1923     PELOTA PINCHO PARA PERRO                             1,65        7    11,55
-DN5087     PECERA PLASTICO C/ASA 27X17X16.5 CM                  3,65        8    29,20
+TA6450     ARBOL PARA GATO CON CASA 35X56 CM                   25,15        3 75,44999999999999
+YX4942     ARNER REJUSTABLE 50-70CM KAKI                         4,5        1      4,5
+GY6869     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE BLAN    4,0        4     16,0
+PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS              25,6        1     25,6
+KS1923     PELOTA PINCHO PARA PERRO                             1,65        7 11,549999999999999
+DN5087     PECERA PLASTICO C/ASA 27X17X16.5 CM                  3,65        8     29,2
                                                                -----------------------
-                                                                    Importe     162,30
-                                                                  Descuento       3,57
-                                                                       Base     158,73
-                                                                        IVA      33,33
+                                                                    Importe 11,0
+                                                                  Descuento 2,2
+                                                                       Base 157,8
+                                                                        IVA 33,138
                                                                -----------------------
-                                                                      TOTAL     192,06
+                                                                      TOTAL 193,138
 ######################################################################################
 FACTURA
 Fecha:          14-02-2023
@@ -533,17 +533,17 @@ Dirección:      Calle de Ercilla  23, 47522 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-TD9547     PECERA GRANDE 30X20 CM BLANCA CON ASA               11,50        4    46,00
-JC1268     BOLSAS RECOGE EXCREMENTOS X4 DE 15 PZAS              1,45        4     5,80
-BR4617     COMEDERO DE PERRO 30 CM                              3,95        3    11,85
-HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        4    66,60
+TD9547     PECERA GRANDE 30X20 CM BLANCA CON ASA                11,5        4     46,0
+JC1268     BOLSAS RECOGE EXCREMENTOS X4 DE 15 PZAS              1,45        4      5,8
+BR4617     COMEDERO DE PERRO 30 CM                              3,95        3 11,850000000000001
+HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        4     66,6
                                                                -----------------------
-                                                                    Importe     130,25
-                                                                  Descuento       1,56
-                                                                       Base     128,69
-                                                                        IVA      27,02
+                                                                    Importe 11,0
+                                                                  Descuento 1,2
+                                                                       Base 126,8
+                                                                        IVA 26,628
                                                                -----------------------
-                                                                      TOTAL     155,71
+                                                                      TOTAL 154,628
 ######################################################################################
 FACTURA
 Fecha:          11-03-2023
@@ -555,19 +555,19 @@ Dirección:      Calle de Irún  32, 14110 Córdoba
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
 JC1268     BOLSAS RECOGE EXCREMENTOS X4 DE 15 PZAS              1,45        3     4,35
-XY9425     CUERDA EN FORMA DE 8 DE ALGODON CON PUNTO DE PLAST   2,25        2     4,50
-WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL          3,80        5    19,00
-NB3627     TAZON MOTIVO PATAS INOX ROJO BRILLANT                6,55        2    13,10
-HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        4    66,60
+XY9425     CUERDA EN FORMA DE 8 DE ALGODON CON PUNTO DE PLAST   2,25        2      4,5
+WG9641     COLLAR MALLA REGLABLE 45-65 CM * 25 MM AZUL           3,8        5     19,0
+NB3627     TAZON MOTIVO PATAS INOX ROJO BRILLANT                6,55        2     13,1
+HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        4     66,6
 AS7753     TIJERAS PARA ENTRESACAR PELAJE DE ACERO INOX+MANCH   8,55        1     8,55
-PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS             25,60        2    51,20
+PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS              25,6        2     51,2
                                                                -----------------------
-                                                                    Importe     167,30
-                                                                  Descuento      16,06
-                                                                       Base     151,24
-                                                                        IVA      31,76
+                                                                    Importe 11,0
+                                                                  Descuento 9,6
+                                                                       Base 155,4
+                                                                        IVA 32,634
                                                                -----------------------
-                                                                      TOTAL     183,00
+                                                                      TOTAL 197,634
 ######################################################################################
 FACTURA
 Fecha:          20-01-2023
@@ -578,14 +578,14 @@ Dirección:      Calle Carabaña  40, 23842 Jaén
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-KO3715     CORREA AUTOMATICA DE PERRO 2.5 M NEGRA               2,40        5    12,00
+KO3715     CORREA AUTOMATICA DE PERRO 2.5 M NEGRA                2,4        5     12,0
                                                                -----------------------
-                                                                    Importe      12,00
-                                                                  Descuento       1,70
-                                                                       Base      10,30
-                                                                        IVA       2,16
+                                                                    Importe 11,0
+                                                                  Descuento 14,2
+                                                                       Base -2,2
+                                                                        IVA -0,462
                                                                -----------------------
-                                                                      TOTAL      12,46
+                                                                      TOTAL 11,538
 ######################################################################################
 FACTURA
 Fecha:          12-01-2023
@@ -596,14 +596,14 @@ Dirección:      Calle Tomás Bretón  42, 14247 Córdoba
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS             25,60        4   102,40
+PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS              25,6        4    102,4
                                                                -----------------------
-                                                                    Importe     102,40
-                                                                  Descuento       7,99
-                                                                       Base      94,41
-                                                                        IVA      19,83
+                                                                    Importe 11,0
+                                                                  Descuento 7,8
+                                                                       Base 94,2
+                                                                        IVA 19,782
                                                                -----------------------
-                                                                      TOTAL     114,24
+                                                                      TOTAL 121,782
 ######################################################################################
 FACTURA
 Fecha:          15-04-2023
@@ -614,18 +614,18 @@ Dirección:      Calle de José Manuel Cobián 12, 49543 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-WH6296     COLLAR MALLA REGLABLE 30-45 CM*15 MM AZUL            2,40        1     2,40
-PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS             25,60        1    25,60
-WG6075     BOLSA DE TRANSPORTE  BICOLOR ROJO/GRIS              25,60        5   128,00
-AP5479     CORREA MALLA 120*1.5 CM VERDE                        3,80        1     3,80
-WH6296     COLLAR MALLA REGLABLE 30-45 CM*15 MM AZUL            2,40        3     7,20
+WH6296     COLLAR MALLA REGLABLE 30-45 CM*15 MM AZUL             2,4        1      2,4
+PH5051     BOLSA DE TRANSPORTE  BICOLOR NEGRO/GRIS              25,6        1     25,6
+WG6075     BOLSA DE TRANSPORTE  BICOLOR ROJO/GRIS               25,6        5    128,0
+AP5479     CORREA MALLA 120*1.5 CM VERDE                         3,8        1      3,8
+WH6296     COLLAR MALLA REGLABLE 30-45 CM*15 MM AZUL             2,4        3 7,199999999999999
                                                                -----------------------
-                                                                    Importe     167,00
-                                                                  Descuento       0,83
-                                                                       Base     166,16
-                                                                        IVA      34,89
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 164,5
+                                                                        IVA 34,545
                                                                -----------------------
-                                                                      TOTAL     201,06
+                                                                      TOTAL 199,545
 ######################################################################################
 FACTURA
 Fecha:          24-02-2023
@@ -636,21 +636,21 @@ Dirección:      Pza Menéndez Pelayo 12, 20509 Guipúzcoa
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-BR4617     COMEDERO DE PERRO 30 CM                              3,95        8    31,60
-JC1268     BOLSAS RECOGE EXCREMENTOS X4 DE 15 PZAS              1,45        2     2,90
-FO2644     COLLAR MALLA REGLABLE 45-65 CM * 25 MM ROSADO        3,80        5    19,00
-KW5933     ARBOL PARA GATO AZUL 23X20X40 CM                    18,90        2    37,80
+BR4617     COMEDERO DE PERRO 30 CM                              3,95        8     31,6
+JC1268     BOLSAS RECOGE EXCREMENTOS X4 DE 15 PZAS              1,45        2      2,9
+FO2644     COLLAR MALLA REGLABLE 45-65 CM * 25 MM ROSADO         3,8        5     19,0
+KW5933     ARBOL PARA GATO AZUL 23X20X40 CM                     18,9        2     37,8
 TA6450     ARBOL PARA GATO CON CASA 35X56 CM                   25,15        1    25,15
 EA2441     PECERA BREEZE 16X9.5X10.5 CM 3 SURTD                 1,35        1     1,35
-ID6917     CORREA MALLA 120*1.5 CM NEGRO                        3,80        1     3,80
-FX9008     RODILLO QUITA PELOS DE MASCOTAS +4                   1,90        1     1,90
+ID6917     CORREA MALLA 120*1.5 CM NEGRO                         3,8        1      3,8
+FX9008     RODILLO QUITA PELOS DE MASCOTAS +4                    1,9        1      1,9
                                                                -----------------------
-                                                                    Importe     123,50
-                                                                  Descuento      15,81
-                                                                       Base     107,69
-                                                                        IVA      22,62
+                                                                    Importe 11,0
+                                                                  Descuento 12,8
+                                                                       Base 106,2
+                                                                        IVA 22,302
                                                                -----------------------
-                                                                      TOTAL     130,31
+                                                                      TOTAL 141,302
 ######################################################################################
 FACTURA
 Fecha:          15-04-2023
@@ -663,15 +663,15 @@ Referencia Nombre                                             Precio Cantidad   
 --------------------------------------------------------------------------------------
 DT2386     CUNA MASCOTA HUELLAS RESPALDO 2 COL MI              18,75        1    18,75
 DN5087     PECERA PLASTICO C/ASA 27X17X16.5 CM                  3,65        5    18,25
-DV4975     COLLAR SILICONA 50X2.5CMCMX2MM ACABADO MATE ROSADO   6,30        1     6,30
-EP8975     COLLAR MALLA REGLABLE 40-55CM*20 MM VERDE            3,00        1     3,00
+DV4975     COLLAR SILICONA 50X2.5CMCMX2MM ACABADO MATE ROSADO    6,3        1      6,3
+EP8975     COLLAR MALLA REGLABLE 40-55CM*20 MM VERDE             3,0        1      3,0
                                                                -----------------------
-                                                                    Importe      46,30
-                                                                  Descuento       0,56
-                                                                       Base      45,74
-                                                                        IVA       9,61
+                                                                    Importe 11,0
+                                                                  Descuento 1,2
+                                                                       Base 43,8
+                                                                        IVA 9,198
                                                                -----------------------
-                                                                      TOTAL      55,35
+                                                                      TOTAL 54,198
 ######################################################################################
 FACTURA
 Fecha:          07-03-2023
@@ -682,18 +682,18 @@ Dirección:      Calle Río Jarama  23, 14752 Córdoba
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-NW7248     TAZON MOTIVO PATAS INOX BLANCO BRILLANT              4,30        2     8,60
-PT7289     BRHUESOSE MADERA DOBLE+PUNTAS DE ACERO GIGANTES 25   3,30        7    23,10
-WG6075     BOLSA DE TRANSPORTE  BICOLOR ROJO/GRIS              25,60        3    76,80
+NW7248     TAZON MOTIVO PATAS INOX BLANCO BRILLANT               4,3        2      8,6
+PT7289     BRHUESOSE MADERA DOBLE+PUNTAS DE ACERO GIGANTES 25    3,3        7 23,099999999999998
+WG6075     BOLSA DE TRANSPORTE  BICOLOR ROJO/GRIS               25,6        3 76,80000000000001
 JE4836     TAZON IMPRESO METAL 15 CM LUXURY ANTIDESLIZANTE      4,55        5    22,75
-BH5878     CHAMPU PERROS Y GATOS FLOWER 400 ML                  7,60        1     7,60
+BH5878     CHAMPU PERROS Y GATOS FLOWER 400 ML                   7,6        1      7,6
                                                                -----------------------
-                                                                    Importe     138,85
-                                                                  Descuento       8,33
-                                                                       Base     130,52
-                                                                        IVA      27,41
+                                                                    Importe 11,0
+                                                                  Descuento 6,0
+                                                                       Base 130,0
+                                                                        IVA 27,3
                                                                -----------------------
-                                                                      TOTAL     157,93
+                                                                      TOTAL 163,3
 ######################################################################################
 FACTURA
 Fecha:          17-03-2023
@@ -704,16 +704,16 @@ Dirección:      Calle Botero  18, 33358 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-BD3330     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE GRIS   4,00        4    16,00
-DV4975     COLLAR SILICONA 50X2.5CMCMX2MM ACABADO MATE ROSADO   6,30        5    31,50
-GY6869     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE BLAN   4,00        4    16,00
+BD3330     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE GRIS    4,0        4     16,0
+DV4975     COLLAR SILICONA 50X2.5CMCMX2MM ACABADO MATE ROSADO    6,3        5     31,5
+GY6869     COLLAR SILICONA 30*1.5 CM * 2 MM ACABADO MATE BLAN    4,0        4     16,0
                                                                -----------------------
-                                                                    Importe      63,50
-                                                                  Descuento       0,32
-                                                                       Base      63,18
-                                                                        IVA      13,27
+                                                                    Importe 11,0
+                                                                  Descuento 0,5
+                                                                       Base 62,5
+                                                                        IVA 13,125
                                                                -----------------------
-                                                                      TOTAL      76,45
+                                                                      TOTAL 76,125
 ######################################################################################
 FACTURA
 Fecha:          09-03-2023
@@ -724,17 +724,17 @@ Dirección:      Calle de Ercilla  23, 47522 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-LQ2656     JUEGO PERRO CUERDA 6 MODELOS TAMAÑO PM               1,90        3     5,70
-QG7990     COMEDERO DOBLE PEQUEÑO SURT ELEGANCE                 1,10        3     3,30
-KW5933     ARBOL PARA GATO AZUL 23X20X40 CM                    18,90        4    75,60
-XB9133     COJIN REDONDO POIESTER D60*80 CM THINK PAWSITIVE M  17,35        6   104,10
+LQ2656     JUEGO PERRO CUERDA 6 MODELOS TAMAÑO PM                1,9        3 5,699999999999999
+QG7990     COMEDERO DOBLE PEQUEÑO SURT ELEGANCE                  1,1        3 3,3000000000000003
+KW5933     ARBOL PARA GATO AZUL 23X20X40 CM                     18,9        4     75,6
+XB9133     COJIN REDONDO POIESTER D60*80 CM THINK PAWSITIVE M  17,35        6 104,10000000000001
                                                                -----------------------
-                                                                    Importe     188,70
-                                                                  Descuento       2,26
-                                                                       Base     186,44
-                                                                        IVA      39,15
+                                                                    Importe 11,0
+                                                                  Descuento 1,2
+                                                                       Base 185,8
+                                                                        IVA 39,018
                                                                -----------------------
-                                                                      TOTAL     225,59
+                                                                      TOTAL 226,018
 ######################################################################################
 FACTURA
 Fecha:          03-02-2023
@@ -746,16 +746,16 @@ Dirección:      Calle del Amazonas 26, 29173 Málaga
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
 KS1923     PELOTA PINCHO PARA PERRO                             1,65        1     1,65
-AR9081     ALFOMBRA RASCADORA PARA GATO DE CARTON              16,60        2    33,20
-FX9008     RODILLO QUITA PELOS DE MASCOTAS +4                   1,90        3     5,70
-HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        4    66,60
+AR9081     ALFOMBRA RASCADORA PARA GATO DE CARTON               16,6        2     33,2
+FX9008     RODILLO QUITA PELOS DE MASCOTAS +4                    1,9        3 5,699999999999999
+HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        4     66,6
                                                                -----------------------
-                                                                    Importe     107,15
-                                                                  Descuento      13,93
-                                                                       Base      93,22
-                                                                        IVA      19,58
+                                                                    Importe 11,0
+                                                                  Descuento 13,0
+                                                                       Base 92,0
+                                                                        IVA 19,32
                                                                -----------------------
-                                                                      TOTAL     112,80
+                                                                      TOTAL 124,32
 ######################################################################################
 FACTURA
 Fecha:          21-02-2023
@@ -766,16 +766,16 @@ Dirección:      Calle de Ercilla  23, 47522 Málaga
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        2    13,90
-KW5933     ARBOL PARA GATO AZUL 23X20X40 CM                    18,90        4    75,60
-IW4131     COLLAR SILICONA 50X2.5CMX2MM ACABADO MATE BLANCO     6,30        8    50,40
+KC6558     TAZON IMPRESO METAL 21.5 CM LUXURY ANTIDESLIZANTE    6,95        2     13,9
+KW5933     ARBOL PARA GATO AZUL 23X20X40 CM                     18,9        4     75,6
+IW4131     COLLAR SILICONA 50X2.5CMX2MM ACABADO MATE BLANCO      6,3        8     50,4
                                                                -----------------------
-                                                                    Importe     139,90
-                                                                  Descuento       1,68
-                                                                       Base     138,22
-                                                                        IVA      29,03
+                                                                    Importe 11,0
+                                                                  Descuento 1,2
+                                                                       Base 136,8
+                                                                        IVA 28,728
                                                                -----------------------
-                                                                      TOTAL     167,25
+                                                                      TOTAL 166,728
 ######################################################################################
 FACTURA
 Fecha:          10-04-2023
@@ -787,15 +787,15 @@ Dirección:      Calle Griñón  50, 10926 Cáceres
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
 HT6133     TRANSPORTIN MASCOTA TELA CUADROS SURT               16,65        1    16,65
-QB8031     CUERDA ALGODON 2 NUDOS 28 CM                         2,00        5    10,00
-QB8031     CUERDA ALGODON 2 NUDOS 28 CM                         2,00        4     8,00
+QB8031     CUERDA ALGODON 2 NUDOS 28 CM                          2,0        5     10,0
+QB8031     CUERDA ALGODON 2 NUDOS 28 CM                          2,0        4      8,0
                                                                -----------------------
-                                                                    Importe      34,65
-                                                                  Descuento       3,85
-                                                                       Base      30,80
-                                                                        IVA       6,47
+                                                                    Importe 11,0
+                                                                  Descuento 11,1
+                                                                       Base 22,9
+                                                                        IVA 4,809
                                                                -----------------------
-                                                                      TOTAL      37,27
+                                                                      TOTAL 38,809
 ######################################################################################
 FACTURA
 Fecha:          03-04-2023
@@ -806,17 +806,17 @@ Dirección:      Calle Griñón  50, 10926 Cáceres
 
 Referencia Nombre                                             Precio Cantidad    Valor
 --------------------------------------------------------------------------------------
-IW4131     COLLAR SILICONA 50X2.5CMX2MM ACABADO MATE BLANCO     6,30        2    12,60
-DT2386     CUNA MASCOTA HUELLAS RESPALDO 2 COL MI              18,75        6   112,50
-AR5832     TAZON MOTIVO PATAS INOX 17 CM ROJO BRILLANTE         4,30        1     4,30
-IW4131     COLLAR SILICONA 50X2.5CMX2MM ACABADO MATE BLANCO     6,30        6    37,80
-QG7990     COMEDERO DOBLE PEQUEÑO SURT ELEGANCE                 1,10        7     7,70
-KO3715     CORREA AUTOMATICA DE PERRO 2.5 M NEGRA               2,40        6    14,40
-FE3771     MANOPLA CEPILLO MASCOTA                              3,70        2     7,40
+IW4131     COLLAR SILICONA 50X2.5CMX2MM ACABADO MATE BLANCO      6,3        2     12,6
+DT2386     CUNA MASCOTA HUELLAS RESPALDO 2 COL MI              18,75        6    112,5
+AR5832     TAZON MOTIVO PATAS INOX 17 CM ROJO BRILLANTE          4,3        1      4,3
+IW4131     COLLAR SILICONA 50X2.5CMX2MM ACABADO MATE BLANCO      6,3        6     37,8
+QG7990     COMEDERO DOBLE PEQUEÑO SURT ELEGANCE                  1,1        7 7,700000000000001
+KO3715     CORREA AUTOMATICA DE PERRO 2.5 M NEGRA                2,4        6 14,399999999999999
+FE3771     MANOPLA CEPILLO MASCOTA                               3,7        2      7,4
                                                                -----------------------
-                                                                    Importe     196,70
-                                                                  Descuento      21,83
-                                                                       Base     174,87
-                                                                        IVA      36,72
+                                                                    Importe 11,0
+                                                                  Descuento 11,1
+                                                                       Base 181,9
+                                                                        IVA 38,199
                                                                -----------------------
-                                                                      TOTAL     211,59
+                                                                      TOTAL 231,199

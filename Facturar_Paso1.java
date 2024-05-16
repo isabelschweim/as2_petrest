@@ -74,7 +74,7 @@ public class Facturar_Paso1 {
 
         // h. Restablecer las facturas
         System.out.println("\nResetear facturas");
-        HTTP.Delete("http://"+ addr + "/petrest/facturas");
+        HTTP.Delete("http://" + addr + "/petrest/facturas");
         System.out.println("Hecho");
 
         // i. Crear una nueva factura con id_pedido=1, importe=1235.22
@@ -100,7 +100,7 @@ public class Facturar_Paso1 {
         facturaModificacion.put("base", 1111.70);
         facturaModificacion.put("iva", 233.46);
         facturaModificacion.put("total", 1345.16);
-        HTTP.Put("http://"+ addr + "/petrest/facturas/" + nuevaFacturaId, facturaModificacion.toString());
+        HTTP.Put("http://" + addr + "/petrest/facturas/" + nuevaFacturaId, facturaModificacion.toString());
         System.out.println("Completar factura");
         System.out.println("Hecho");
 
