@@ -55,8 +55,7 @@ public class Facturar {
             System.out.println("--------------------------------------------------------------------------------------");
 
             // Restablecer el valor total en cada iteracion
-            int valorTotal = 0;
-            double importeTotal = 0;
+            double valorTotal = 0;
 
             // Obtener los items del pedido
             JSONArray itemsPedido = HTTP.Get_array("http://" + addr + "/petrest/pedidos/" + i + "/items");
@@ -75,31 +74,29 @@ public class Facturar {
                 // Imprimir los datos de cada articulo
                 System.out.printf("%-10s %-50s %6.2f %8d %8.2f\n", articulo.referencia, articulo.nombre, articulo.precio, item.cantidad, valor);
                 valorTotal += valor; // Acumular el valor total
-                importeTotal += articulo.precio * item.cantidad;
             }
 
-            double descuento = cliente.descuento * importeTotal / 100;
-            double base = importeTotal - descuento;
+            double descuento = cliente.descuento * valorTotal / 100;
+            double base = valorTotal - descuento;
             double iva = base * 0.21;
             double total = base + iva;
 
             // Crear nueva factura
             JSONObject facturaData = new JSONObject();
-            facturaData.put("id_pedido", i);
+            facturaData.put("id_pedido", idPedido);
             facturaData.put("importe", valorTotal);
+            // // Print facturaData
+            // System.out.println(facturaData.toString());
             HTTP.Post("http://" + addr + "/petrest/facturas", facturaData.toString());
 
             // GET request para obtener el id de la nueva factura para completarla
             JSONArray idNuevaFactura = HTTP.Get_array("http://" + addr + "/petrest/facturas");
-            Long nuevaFacturaIdLong = (Long) idNuevaFactura.get(0); // Obtener el id de la nueva factura (debe ser long)
+            Long nuevaFacturaIdLong = (Long) idNuevaFactura.get(i-1); // Obtener el id de la nueva factura (debe ser long)
             int nuevaFacturaId = nuevaFacturaIdLong.intValue();
 
             // Completar la factura
             JSONObject facturaModificacion = new JSONObject();
-            // facturaModificacion.put("descuento", cliente.descuento);
-            // facturaModificacion.put("base", valorTotal - cliente.descuento);
-            // facturaModificacion.put("iva", (valorTotal - cliente.descuento) * 0.21);
-            // facturaModificacion.put("total", valorTotal + (valorTotal - cliente.descuento) * 0.21);
+            facturaModificacion.put("importe", valorTotal);
             facturaModificacion.put("descuento", descuento);
             facturaModificacion.put("base", base);
             facturaModificacion.put("iva", iva);
