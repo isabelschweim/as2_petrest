@@ -10,8 +10,8 @@ import org.json.simple.JSONObject;
 
 public class Requests {
 
-    private static String addr = "10.202.20.125"; // Direccion IP de Luis
-    // private static String addr = "127.0.0.1"; // Para pruebas locales
+    // private static String addr = "10.202.20.125"; // Direccion IP de Luis
+    private static String addr = "127.0.0.1"; // Para pruebas locales
     private static String user = "Pareja1";
     private static String pass = "rEf@ZO{TU";
 
@@ -68,7 +68,12 @@ public class Requests {
         JSONObject factura = new JSONObject();
         factura.put("id_pedido", idPedido);
         factura.put("importe", importe);
-        HTTP.Post("http://" + addr + "/petrest/facturas", factura.toString());
+        JSONObject check = HTTP.Post("http://" + addr + "/petrest/facturas", factura.toString());
+        if (check == null) {
+            System.out.println("Error al crear la factura");
+            System.exit(1);
+        }
+        // System.out.println("Factura creada");
     }
 
     // Obtener el id de la nueva factura creada
@@ -86,7 +91,12 @@ public class Requests {
         facturaModificacion.put("base", base);
         facturaModificacion.put("iva", iva);
         facturaModificacion.put("total", total);
-        HTTP.Put("http://" + addr + "/petrest/facturas/" + id, facturaModificacion.toString());
+        JSONObject check = HTTP.Put("http://" + addr + "/petrest/facturas/" + id, facturaModificacion.toString());
+        if (check == null) {
+            System.out.println("Error al rellenar la factura");
+            System.exit(1);
+        }
+        // System.out.println("Factura " + id + " rellenada");
     }
 
     // Descargar factura completa

@@ -5,7 +5,7 @@ import org.json.simple.JSONArray;
 import java.util.HashMap;
 import java.util.ArrayList;
 
-public class JSON
+public class luis_JSON
 	{
 	private static final String SEPARADOR ="························\n";
 	private static final String JSON_OBRAS = "["

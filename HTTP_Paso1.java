@@ -9,6 +9,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
@@ -17,7 +18,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-public class HTTP {
+public class HTTP_Paso1 {
     // Inicializar el cliente HTTP y la cabecera de autorizacion
     static HttpClient cliente = HttpClient.newHttpClient();
     static String authorizationHeader = "";
@@ -67,7 +68,7 @@ public class HTTP {
     }
 
     // POST
-    public static JSONObject Post(String uri, String json_data) {
+    public static void Post(String uri, String json_data) {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(uri))
                 .header("Authorization", authorizationHeader)
@@ -75,11 +76,11 @@ public class HTTP {
                 .POST(HttpRequest.BodyPublishers.ofString(json_data))
                 .build();
 
-        return sendRequestAndGetObject(request);
+        sendRequest(request);
     }
 
     // PUT
-    public static JSONObject Put(String uri, String json_data) {
+    public static void Put(String uri, String json_data) {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(uri))
                 .header("Authorization", authorizationHeader)
@@ -87,7 +88,7 @@ public class HTTP {
                 .PUT(HttpRequest.BodyPublishers.ofString(json_data))
                 .build();
 
-        return sendRequestAndGetObject(request);
+        sendRequest(request);
     }
 
     // DELETE

@@ -5,10 +5,6 @@
  * Isabel Schweim - 100460211
  */
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-
-
 public class Facturar {
 
     public static void main(String[] args) {
@@ -22,6 +18,7 @@ public class Facturar {
 
         // Restablecer las facturas
         Requests.deleteFacturas();
+        System.out.println("PAREJA 1");
 
         // Imprimir por pantalla cada factura
         for (int i = 1; i <= numPedidos; i++) {
