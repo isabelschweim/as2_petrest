@@ -10,8 +10,8 @@ import org.json.simple.JSONObject;
 
 public class Requests {
 
-    // private static String addr = "10.202.20.125"; // Direccion IP de Luis
-    private static String addr = "127.0.0.1"; // Para pruebas locales
+    private static String addr = "10.202.20.125"; // Direccion IP de Luis
+    // private static String addr = "127.0.0.1"; // Para pruebas locales
     private static String user = "Pareja1";
     private static String pass = "rEf@ZO{TU";
 
